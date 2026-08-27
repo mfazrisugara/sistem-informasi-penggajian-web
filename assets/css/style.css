@@ -1,0 +1,570 @@
+/* ======================================
+   GLOBAL
+====================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#F3F4F6;
+}
+
+/* ======================================
+   SIDEBAR
+====================================== */
+
+.sidebar{
+    width:260px;
+    height:100vh;
+    background:#065F46;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:25px;
+}
+
+.logo{
+    color:white;
+}
+
+.logo h4{
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:5px;
+}
+
+.logo small{
+    color:#D1FAE5;
+}
+
+.sidebar hr{
+    border-color:rgba(255,255,255,.2);
+    margin:20px 0;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar li{
+    margin-bottom:10px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:12px 15px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+    background:#10B981;
+}
+
+.sidebar i{
+    width:25px;
+}
+
+/* ======================================
+   NAVBAR
+====================================== */
+
+
+.navbar{
+
+    height:70px;
+
+    background:white;
+
+    margin-left:260px;
+
+    padding:0 30px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+
+}
+
+
+.navbar-title{
+
+    font-size:20px;
+
+    font-weight:600;
+
+    color:#065F46;
+
+}
+
+
+.navbar-user{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#374151;
+
+}
+
+
+.navbar-user i{
+
+    font-size:25px;
+
+    color:#065F46;
+
+}
+
+
+.role{
+
+    color:#6B7280;
+
+    font-size:14px;
+
+}
+
+
+.logout-btn{
+
+    margin-left:20px;
+
+    background:#065F46;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+
+.logout-btn:hover{
+
+    background:#10B981;
+
+    color:white;
+
+}
+
+/* ======================================
+   CONTENT
+====================================== */
+
+.content{
+
+    margin-left:260px;
+
+    padding:30px;
+
+}
+
+/* ======================================
+   DASHBOARD CARD
+====================================== */
+
+.card-dashboard{
+
+    width:250px;
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+
+.card-dashboard .icon{
+
+    width:55px;
+
+    height:55px;
+
+    background:#065F46;
+
+    color:white;
+
+    border-radius:12px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:25px;
+
+}
+
+
+.card-dashboard h3{
+
+    margin:0;
+
+    font-size:28px;
+
+    color:#065F46;
+
+}
+
+
+.card-dashboard p{
+
+    margin:0;
+
+    color:#6B7280;
+
+}
+
+/* ======================================
+   CARD CONTAINER
+====================================== */
+
+.card-container{
+
+    display:grid;
+
+    grid-template-columns: repeat(2, 250px);
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+
+/* ======================================
+   PAGE HEADER
+====================================== */
+
+.page-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.page-header h2{
+
+    margin:0;
+
+    color:#065F46;
+
+}
+
+.page-header p{
+
+    margin-top:5px;
+
+    color:#6B7280;
+
+}
+
+.btn-tambah{
+
+    background:#10B981;
+
+    color:white;
+
+    padding:12px 18px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-tambah:hover{
+
+    background:#059669;
+
+    color:white;
+
+}
+
+/* =====================================
+   TOOLBAR
+===================================== */
+
+.toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+    gap:20px;
+
+}
+
+
+/* =====================================
+   BUTTON TAMBAH
+===================================== */
+
+.btn-tambah{
+
+    background:#059669;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    transition:.3s;
+
+}
+
+.btn-tambah:hover{
+
+    background:#047857;
+
+    color:white;
+
+}
+
+
+/* =====================================
+   SEARCH
+===================================== */
+
+.search-box{
+
+    width:320px;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:12px 18px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+}
+
+.search-box i{
+
+    color:#059669;
+
+}
+
+.search-box input{
+
+    border:none;
+
+    outline:none;
+
+    width:100%;
+
+    font-size:15px;
+
+}
+
+/* =====================================================
+   HALAMAN DATA JABATAN
+===================================================== */
+
+.page-title{
+    margin-bottom:25px;
+}
+
+.page-title h2{
+    font-size:40px;
+    font-weight:700;
+    color:#1F2937;
+    margin-bottom:8px;
+}
+
+.page-title p{
+    color:#6B7280;
+    font-size:16px;
+}
+
+.card-custom{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.btn-tambah{
+
+    background:#059669;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    padding:12px 22px;
+
+    border-radius:10px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:600;
+
+}
+
+.btn-tambah:hover{
+
+    background:#047857;
+
+    color:white;
+
+}
+
+.search-box{
+
+    width:320px;
+
+    background:#F9FAFB;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:10px;
+
+    padding:10px 15px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+    border:none;
+
+    background:transparent;
+
+    outline:none;
+
+}
+
+.search-box i{
+
+    color:#059669;
+
+}
+
+.table{
+
+    margin-bottom:0;
+
+}
+
+.table thead{
+
+    background:#ECFDF5;
+
+}
+
+.table thead th{
+
+    color:#065F46;
+
+    border:none;
+
+    padding:15px;
+
+    font-weight:600;
+
+}
+
+.table tbody td{
+
+    padding:15px;
+
+    vertical-align:middle;
+
+}
+
+.table tbody tr:hover{
+
+    background:#F9FAFB;
+
+}
+
