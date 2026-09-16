@@ -150,12 +150,8 @@ Database dapat dibuat melalui **phpMyAdmin** dan dikonfigurasi pada:
 config/koneksi.php
 ```
 
->File SQL database tersedia di folder `database/` agar project dapat lebih mudah digunakan kembali oleh pengguna lain.
-### Tampilan Aplikasi
+> File SQL database tersedia di repository pada folder `database/` agar project dapat lebih mudah digunakan kembali oleh pengguna lain.
 
-#### Halaman Login
-
-![Halaman Login](screenshots/login.png)
 
 ## Instalasi dan Menjalankan Project
 
@@ -218,6 +214,11 @@ Setelah Apache dan MySQL/MariaDB aktif, buka:
 http://localhost/penggajian/
 ```
 
+## Tampilan Aplikasi
+
+### Halaman Login
+
+![Halaman Login](screenshots/login.png)
 ## Hak Akses Pengguna
 
 | Role     | Akses                                |
