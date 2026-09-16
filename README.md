@@ -240,6 +240,10 @@ http://localhost/penggajian/
 
 ![Penggajian](screenshots/penggajian.png)
 
+### Laporan
+
+![Laporan](screenshots/laporan.png)
+
 ## Hak Akses Pengguna
 
 | Role     | Akses                                |
