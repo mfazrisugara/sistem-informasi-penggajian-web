@@ -232,6 +232,10 @@ http://localhost/penggajian/
 
 ![Data Jabatan](screenshots/data-jabatan.png)
 
+### Absensi
+
+![Absensi](screenshots/absensi.png)
+
 ## Hak Akses Pengguna
 
 | Role     | Akses                                |
