@@ -219,6 +219,11 @@ http://localhost/penggajian/
 ### Halaman Login
 
 ![Halaman Login](screenshots/login.png)
+
+### Halaman Dashboard
+
+![Halaman Dashboard](screenshots/dashboard-admin.png)
+
 ## Hak Akses Pengguna
 
 | Role     | Akses                                |
