@@ -236,6 +236,10 @@ http://localhost/penggajian/
 
 ![Absensi](screenshots/absensi.png)
 
+### Penggajian
+
+![Penggajian](screenshots/penggajian.png)
+
 ## Hak Akses Pengguna
 
 | Role     | Akses                                |
