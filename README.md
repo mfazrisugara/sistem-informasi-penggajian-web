@@ -228,6 +228,10 @@ http://localhost/penggajian/
 
 ![Data Pegawai](screenshots/data-pegawai.png)
 
+### Data Jabatan
+
+![Data Jabatan](screenshots/data-jabatan.png)
+
 ## Hak Akses Pengguna
 
 | Role     | Akses                                |
