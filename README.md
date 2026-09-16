@@ -150,7 +150,12 @@ Database dapat dibuat melalui **phpMyAdmin** dan dikonfigurasi pada:
 config/koneksi.php
 ```
 
-> File SQL database dapat ditambahkan ke repository pada folder `database/` agar project dapat lebih mudah digunakan kembali oleh pengguna lain.
+>File SQL database tersedia di folder `database/` agar project dapat lebih mudah digunakan kembali oleh pengguna lain.
+### Tampilan Aplikasi
+
+#### Halaman Login
+
+![Halaman Login](screenshots/login.png)
 
 ## Instalasi dan Menjalankan Project
 
