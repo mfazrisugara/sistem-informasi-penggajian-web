@@ -224,6 +224,10 @@ http://localhost/penggajian/
 
 ![Halaman Dashboard](screenshots/dashboard-admin.png)
 
+### Data Pegawai
+
+![Data Pegawai](screenshots/data-pegawai.png)
+
 ## Hak Akses Pengguna
 
 | Role     | Akses                                |
